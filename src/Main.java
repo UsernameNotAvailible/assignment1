@@ -10,6 +10,9 @@ public class Main {
         if ((a >= b && c < d) || (b == d && a != c)) {System.out.println("(a >= b and c < d) or (b == d and a != c)");} // some logic using relational operators
         else {if (b > a && d <= c) {System.out.println("b > a and d <= c");} // in one string since it's just println, and to be more compact
         else {System.out.println("Something else");}} // It can be reached
+        if (e.equals("some random words")) { // won't print anything
+            System.out.println("print nothing");
+        }
 
         switch (e) {
             case "Constant expression required":
